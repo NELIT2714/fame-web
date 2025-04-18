@@ -1,3 +1,6 @@
 [submodule "frontend"]
 	path = frontend
         url = git@github.com:NELIT2714/fame-web-frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/NELIT2714/fame-web-backend.git
