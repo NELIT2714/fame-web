@@ -25,6 +25,6 @@ jobs:
           script: |
             cd /home/owner/fame-gta5.com
             git pull --recurse-submodules origin master --rebase
-            docker-compose down fame_frontend nginx
-            docker-compose up fame_frontend --build -d
+            docker-compose down fame_frontend fame_backend nginx
+            docker-compose up fame_frontend fame_backend --build -d
             docker-compose up nginx -d
