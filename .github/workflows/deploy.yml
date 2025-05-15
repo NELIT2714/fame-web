@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-        with:
-          token: ${{ secrets.GT_KEY }}
+        # with:
+        #   token: ${{ secrets.GT_KEY }}
 
       - name: SSH into server and deploy
         uses: appleboy/ssh-action@v0.1.6
